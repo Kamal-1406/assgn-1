@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+           background-color: black;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main-cont{
+            background-color: #fff;
+            height: 450px;
+            width: 360px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+            text-transform: capitalize;
+            border-radius: 5px;
+        }
+       .inputs input,.inputs select{
+        width: 350px;
+        padding: 10px 0;
+        border-radius: 4px;
+       }
+       #submit{
+        background-color: black;
+        color: white;
+       }
+    </style>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container">
+        <div class="main-cont">
+           <div class="heading"><h1>signup</h1></div>
+            <div class="inputs"><label for="name">name :</label><br><input type="text" name="" id="name"></div>
+            <div class="inputs">
+                <label for="batch">batch :</label><br>
+                <select name="batch" id="batch">
+                <option value="sigma 2.0">sigma2.0</option>
+                <option value="sigma 1.0">alpha </option>
+                <option value="sigma 3.0">gamma</option>
+            </select></div>
+            <div class="inputs"><label for="age">age :</label><br><input type="number" name="age" id="age"></div>
+            <div class="inputs"><label for="email">email :</label><br><input type="email" name="email" id="email"></div>
+            <div class="inputs"><label for="paswrd">password :</label><br><input type="password" name="password" id="paswrd"></div>
+            <div class="inputs"><input type="submit" name="button" id="submit" value="signup"></div>
+        
+    </div>
+</body>
+</html>
